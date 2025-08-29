@@ -1,0 +1,16 @@
+.titulo-1{
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mnu-itm {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+}
+
+.grp-mnu {
+    background-color: gray;    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
