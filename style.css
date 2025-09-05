@@ -14,3 +14,14 @@
     background-color: gray;    
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.icons-carousel {
+    font-size: 3rem;
+}
+
+
+.title-section {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 5rem; 
+    color: darkblue;
+}

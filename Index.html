@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Clase - 1</title>
 </head>
@@ -27,16 +28,19 @@
                         <div class="collapse navbar-collapse" id="navbarItmMenu">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                <a class="nav-link text-black mnu-itm fs-4" aria-current="page" href="#">Elite</a>
+                                    <a class="nav-link text-black mnu-itm fs-4" aria-current="page" href="#">Elite</a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-black mnu-itm fs-4" href="#zapatillas">Zapatillas</a>
+                                </li>                   
+                                <li class="nav-item">
+                                    <a class="nav-link text-black mnu-itm fs-4" href="#relojes">Relojes</a>
+                                </li>                   
+                                <li class="nav-item">
+                                    <a class="nav-link text-black mnu-itm fs-4" href="#major">Marathons Majors</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link text-black mnu-itm fs-4" href="#">Zapatillas</a>
-                                </li>                   
-                                <li class="nav-item">
-                                <a class="nav-link text-black mnu-itm fs-4" href="#">Relojes</a>
-                                </li>                   
-                                <li class="nav-item">
-                                <a class="nav-link text-black mnu-itm fs-4" href="#">Marathons Majors</a>
+                                    <a class="nav-link text-black mnu-itm fs-4" href="#contacto">Contacto</a>
                                 </li>                   
                             </ul>            
                         </div>
@@ -47,27 +51,142 @@
     </div>    
     
     <div class="container-fluid">
-        <div class="row  grp-mnu mx-5 my-5 border border-3 rounded-5">
-            <div class="col-6">
-                <div class="d-flex flex-column align-items-center justify-content-center">
-                    <button type="button" class="btn btn-dark btn-lg m-3">Hombre</button>
-                    <button type="button" class="btn btn-dark btn-lg m-3">Mujer</button>
-                    <button type="button" class="btn btn-dark btn-lg m-3">Niños</button>
-                    <button type="button" class="btn btn-dark btn-lg m-3">Accesorios</button>
+        <h1 class="text-center my-5 title-section" >Elite Sports</h1>
+        <div class="row text-center">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card border border-3">
+                    <img src="./wwwroot/img/elite/Eliud_Kipchoge.jpg" class="card-img-top w-100" alt="Eliud_Kipchoge">
+                    <div class="card-body">
+                        <h5 class="card-title">Eliud Kipchoge</h5>
+                        <p class="card-text">Eliud Kipchoge (Kapsisiywa, 5 de noviembre de 1984) es un deportista keniano que compite en atletismo, especialista en las carreras de fondo y en la maratón. 
+                            Es bicampeón olímpico en maratón en los años 2016 y 2020 y campeón mundial de 5000 metros en 2003</p>
+                        <a href="https://es.wikipedia.org/wiki/Eliud_Kipchoge" class="btn btn-primary">WikiPedia</a>
+                    </div>
+                </div>
+            </div>                
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./wwwroot/img/elite/Eliud_Kipchoge.jpg" class="card-img-top w-100" alt="Eliud_Kipchoge">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>    
-            <div class="col-6">
-                <div class="d-flex flex-column align-items-center justify-content-center">
-                    <button type="button" class="btn btn-dark btn-lg m-3">Hombre</button>
-                    <button type="button" class="btn btn-dark btn-lg m-3">Mujer</button>
-                    <button type="button" class="btn btn-dark btn-lg m-3">Niños</button>
-                    <button type="button" class="btn btn-dark btn-lg m-3">Accesorios</button>
-                </div>    
-            </div>    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./wwwroot/img/elite/Eliud_Kipchoge.jpg" class="card-img-top w-100" alt="Eliud_Kipchoge">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>               
         </div>
     </div>    
 
-         
+    <div class="container-fluid">
+        <h1 class="text-center my-5 title-section">Maraton Majors</h1>
+        <div id="carouselMajor" class="carousel slide" data-bs-theme="dark">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselMajor" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Tokio"></button>
+                <button type="button" data-bs-target="#carouselMajor" data-bs-slide-to="1" aria-label="Chicago"></button>
+                <button type="button" data-bs-target="#carouselMajor" data-bs-slide-to="2" aria-label="Berlin"></button>
+                <button type="button" data-bs-target="#carouselMajor" data-bs-slide-to="3" aria-label="Londres"></button>
+                <button type="button" data-bs-target="#carouselMajor" data-bs-slide-to="4" aria-label="New York"></button>
+                <button type="button" data-bs-target="#carouselMajor" data-bs-slide-to="5" aria-label="Boston"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./wwwroot/img/majors/tokyo.jpg" class="d-block w-100" alt="Tokio" height="700px">
+                    <div class="carousel-caption d-none d-md-block border border-3 border-light rounded-5 bg-white bg-opacity-50">
+                        
+                            <h5>Maraton de Tokio</h5>
+                            <p>La maratón de Tokio se celebra anualmente desde 2007 en la ciudad de Tokio, capital de Japón. 
+                            La primera edición contó con la participación de 30.000 corredores, 25.000 de los cuales se inscribieron 
+                            para el maratón y 5.000 para la distancia de 10 km.
+                            El record masculino del circuito lo ostenta el keniata Benson Kipruto con un tiempo de 2:02:16 conseguido en 2024.
+                            El record femenino del circuito lo tiene la etíope Sutume Kebede con un tiempo de 2:15:55 conseguido en 2024.
+                            </p>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./wwwroot/img/majors/chicago.jpg" class="d-block w-100" alt="Chicago" height="700px">
+                    <div class="carousel-caption d-none d-md-block border border-3 border-light rounded-5 bg-white bg-opacity-50">                       
+                        <h5>Maraton de Chicago</h5>
+                        <p>La maratón de Chicago, oficialmente y por motivos comerciales Bank of America Chicago Marathon, se celebra anualmente desde 1977 en la ciudad de Chicago.
+                           Esta es una de las más veloces del mundo, no en vano, en su edición 2023 se consiguió el record mundial masculino de la mano de Keniata Kelvin Kiptum con un tiempo de 2:00:35.
+                           Tambien se consiguio el record mundial femenino con la keniata Ruth Chepngetich con un crono de 2:09:52. 
+                        </p>                       
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./wwwroot/img/majors/berlin.jpg" class="d-block w-100" alt="Berlin" height="700px">
+                    <div class="carousel-caption d-none d-md-block border border-3 border-light rounded-5 bg-white bg-opacity-50">
+                        <h5>Maraton de Berlin</h5>
+                        <p>La maratón de Berlín se celebra anualmente desde 1974 en la ciudad de Berlín, capital de Alemania.
+                           El trazado de la maratón de Berlín está considerado por los especialistas como muy rápido, lo que le hacen propicio para conseguir buenas marcas
+                           El record masculino del circuito lo ostenta el keniata Eliud Kipchoge con un tiempo de 2:01:09 conseguido en 2022.
+                           El record femenino del circuito lo tiene la etíope Tigst Assefa con un tiempo de 2:11:53 conseguido en 2023.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./wwwroot/img/majors/london.jpg" class="d-block w-100" alt="Londres" height="700px">
+                    <div class="carousel-caption d-none d-md-block border border-3 border-light rounded-5 bg-white bg-opacity-50">
+                        <h5>Maraton de Londres</h5>
+                        <p>La maratón de Londres se celebra anualmente desde 1981 en la ciudad de Londres, capital de Reino Unido
+                            El fundador de esta maratón fue Chris Brasher, antiguo campeón olímpico de atletismo y famoso deportista, que se inspiró en la maratón de Nueva York. 
+                            Cabe destacar la inusual labor de la competición para recaudar dinero con fines caritativos, superior al resto de maratones
+                            El record masculino del circuito lo ostenta el keniata Kelvin Kiptum con un tiempo de 2:01:25 conseguido en 2023.
+                            El record femenino del circuito lo tiene la etíope Tigst Assefa con un tiempo de 2:15:50 conseguido en 2025.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./wwwroot/img/majors/newyork.jpeg" class="d-block w-100" alt="New York" height="700px">
+                    <div class="carousel-caption d-none d-md-block border border-3 border-light rounded-5 bg-white bg-opacity-50">
+                        <h5>Maraton de New York</h5>
+                        <p>La maratón de Nueva York se celebra anualmente desde 1970 en la ciudad de Nueva York, Estados Unidos.
+                            La primera maratón se celebró en la ciudad de Nueva York en 1970, entonces, los 127 participantes dieron varias vueltas 
+                            alrededor de Park Drive en Central Park. Sólo un centenar de espectadores observaron entonces la prueba, que ganó el norteamericano 
+                            Gary Muhrcke con una marca de 2 h 31 min 38 s. 
+                            En esta primera edición sólo 55 de los participantes completaron la carrera.
+                            El record masculino del circuito lo ostenta el etiope Tamirat Tola con un tiempo de 2:04:58 conseguido en 2023.
+                            El record femenino del circuito lo tiene la etíope Margaret Okayo con un tiempo de 2:22:31 conseguido en 2003.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./wwwroot/img/majors/boston.jpg" class="d-block w-100" alt="Boston" height="700px">
+                    <div class="carousel-caption d-none d-md-block border border-3 border-light rounded-5 bg-white bg-opacity-50">
+                        <h5>Maraton de Boston</h5>
+                        <p>La maratón de Boston se celebra anualmente desde 1897 en la ciudad de Boston, estado de Massachusetts, Estados Unidos.
+                           El maratón de Boston se corrió por primera vez en abril de 1897, motivado por la vuelta del maratón como prueba en los Juegos Olímpicos de Atenas 1896. 
+                           Es el maratón más antiguo que se celebra de forma continua y la segunda carrera a pie más larga en Estados Unidos.
+                           El record masculino del circuito lo ostenta el keniata Geoffrey Mutai con un tiempo de 2:03:02 conseguido en 2011.
+                           El record femenino del circuito lo tiene la keniata Rita Jeptoo con un tiempo de 2:18:57 conseguido en 2014. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMajor" data-bs-slide="prev">
+                <i class="bi bi-arrow-left-circle-fill icons-carousel"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMajor" data-bs-slide="next">
+                <i class="bi bi-arrow-right-circle-fill icons-carousel"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>        
+    </div>
+    
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2024 Elite Sports. Todos los derechos reservados.</p>
+    </footer>     
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
