@@ -1,3 +1,7 @@
+.page-body {
+   background-color: rgb(145, 145, 145);
+}
+
 .titulo-1{
     font-size: 2rem;
     color: #333;
@@ -24,4 +28,53 @@
     font-family: 'Bebas Neue', cursive; 
     font-size: 5rem; 
     color: darkblue;
+}
+
+.text-section {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem; 
+    color: black;
+    text-align: justify;
+}
+
+.text-card-body-section {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem; 
+    color: black;
+    font-style: normal;    
+}
+
+.text-card-title-section {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem; 
+    color: black;    
+}
+
+.btn-info-elite
+{
+  font-size: 2rem;   
+}
+
+.title-contact {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 3rem; 
+    color: darkblue;
+}
+
+.text-contact-section {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem; 
+    color: black;
+    text-align: justify;
+}
+
+.btn-enviar {
+    width: 100%;
+    background-color: cornflowerblue;
+    border: none;
+}
+
+.card-img
+{
+    height: 250px;
 }
